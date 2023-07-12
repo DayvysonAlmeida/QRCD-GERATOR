@@ -1,0 +1,1 @@
+# QRCD-GERATOR
