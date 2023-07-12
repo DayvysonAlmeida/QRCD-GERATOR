@@ -15,3 +15,14 @@ body{
     padding: 0 10px;
     background: #058215;
 }
+
+.wrapper{
+    height: 270px;
+    width: 420px;
+    background-color: #3a5533;
+    border-radius: 7px;
+    padding: 30px 30px 35px;
+    transition: all 0.2 ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+    
+}
