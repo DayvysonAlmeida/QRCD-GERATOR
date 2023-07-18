@@ -30,3 +30,16 @@ body{
 .wrapper.active{
     height: 525px;
 }
+
+.wrapper form{
+    height: 210px;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    border-radius: 7px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
