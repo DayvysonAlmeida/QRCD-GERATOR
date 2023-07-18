@@ -78,3 +78,9 @@ form .content p{
     margin-top: 25px;
     pointer-events: none;
 }
+
+.wrapper.active .details{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.05s ease;
+}
