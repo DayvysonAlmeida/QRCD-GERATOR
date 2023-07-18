@@ -43,3 +43,8 @@ body{
     justify-content: center;
     transition: all 0.2s ease;
 }
+
+.wrapper.active form{
+    height: 225px;
+    pointer-events: none;
+}
