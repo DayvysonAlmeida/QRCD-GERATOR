@@ -102,3 +102,15 @@ textarea::-webkit-scrollbar{
     width: 0px;
 }
 
+textarea:hover::-webkit-scrollbar{
+    width: 5px;
+}
+
+textarea:hover::-webkit-scrollbar-track{
+    background: none;
+}
+
+textarea:hover::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 8px;
+}
