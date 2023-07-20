@@ -39,3 +39,6 @@ copyBtn.addEventListener("click", () => {
     let text = document.querySelector("textarea").textContent;
     navigator.clipboard.writeText(text);
 });
+
+// Quando o usuário clicar no formulário, execute a função add.EventListener
+form.addEventListener("click", () => fileInp.click());
