@@ -5,6 +5,9 @@ const infoText = document.querySelectorAll("p");
 const closeBtn = document.querySelectorAll(".close");
 const copyBtn = document.querySelectorAll(".copy");
 
+
+// Fecth Data From Api
+
 function fetchRequest(file, formData){
     infoText.innerText = "Scanning QR Code...";
     fetch("http://api.qrserver.com/v1/read-qr-code/",{
@@ -20,3 +23,13 @@ function fetchRequest(file, formData){
                 infoText.innerText = "Couldn't Scan QR Code...";
             })
 }
+
+
+// Enviar arquivo de código QR com solicitação para API
+fileInp.addEventListener("change", async e =>{
+    let file = e.target.files[0];
+    if (!file) return;
+    let formData = new FormData();
+    formData.append('file', file);
+    fetchRequest(file, formData);
+})
