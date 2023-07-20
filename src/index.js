@@ -32,4 +32,10 @@ fileInp.addEventListener("change", async e =>{
     let formData = new FormData();
     formData.append('file', file);
     fetchRequest(file, formData);
-})
+});
+
+//Copy Text to ClipBoard
+copyBtn.addEventListener("click", () => {
+    let text = document.querySelector("textarea").textContent;
+    navigator.clipboard.writeText(text);
+});
