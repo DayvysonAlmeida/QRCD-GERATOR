@@ -42,3 +42,5 @@ copyBtn.addEventListener("click", () => {
 
 // Quando o usuário clicar no formulário, execute a função add.EventListener
 form.addEventListener("click", () => fileInp.click());
+
+closeBtn.addEventListener("click", () => wrapper.classList.remove("active"));
