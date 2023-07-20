@@ -74,7 +74,7 @@ form .content p{
 }
 
 .wrapper .details{
-    opacity: 0;
+    opacity: 1;
     margin-top: 25px;
     pointer-events: none;
 }
@@ -121,3 +121,18 @@ textarea:hover::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: space-between;
 }
+
+.buttons button{
+    height: 55px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    color: #334155;
+    border-radius: 5px;
+    background: #fff;
+    transition: transform 0.3s ease;
+    width: calc(100% / 2 - 10px);
+}
+
