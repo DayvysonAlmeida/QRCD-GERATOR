@@ -1,9 +1,9 @@
 const wrapper = document.querySelector(".wrapper");
-const form = document.querySelectorAll("form");
-const fileInp = document.querySelectorAll("input");
-const infoText = document.querySelectorAll("p");
-const closeBtn = document.querySelectorAll(".close");
-const copyBtn = document.querySelectorAll(".copy");
+const form = document.querySelector("form");
+const fileInp = document.querySelector("input");
+const infoText = document.querySelector("p");
+const closeBtn = document.querySelector(".close");
+const copyBtn = document.querySelector(".copy");
 
 
 // Fecth Data From Api
