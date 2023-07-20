@@ -139,3 +139,13 @@ textarea:hover::-webkit-scrollbar-thumb{
 .buttons button:active{
     transform: scale(0.95);
 }
+
+@media (max-width:450px){
+    .wrapper{
+        padding: 25px;
+        height: 260px;
+    }
+    .wrapper.active{
+        height: 520px;
+    }
+}
