@@ -114,3 +114,10 @@ textarea:hover::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 8px;
 }
+
+.details .buttons{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
